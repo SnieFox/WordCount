@@ -38,7 +38,7 @@ public class WordCountRunner {
             job2.setOutputKeyClass(IntWritable.class);
             job2.setOutputValueClass(Text.class);
 
-            FileInputFormat.addInputPath(job2, new Path(args[1]));  // Let's use the output data of the first task as input data for the second task
+            FileInputFormat.addInputPath(job2, new Path(args[1]));  // Use the output data of the first task as input data for the second task
             FileOutputFormat.setOutputPath(job2, new Path(args[2]));
 
             System.exit(job2.waitForCompletion(true) ? 0 : 1);

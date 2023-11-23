@@ -1,0 +1,5 @@
+org/wordcount/FrequencyInverterMapper.class
+org/wordcount/FrequencyInverterReducer.class
+org/wordcount/WordCountRunner.class
+org/wordcount/WordCountMapper.class
+org/wordcount/WordCountReducer.class

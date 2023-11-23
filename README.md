@@ -1,0 +1,2 @@
+# Big Data MapReduce
+Main idea: You have a large file with the text of a book. Your task is to determine the frequency of occurrence of each word in this book. When after the first cycle you have information about the frequency of occurrence of each word in the book, invert the key-value pairs so that the new key is the number of occurrences of the word and the value is the word itself, and collect all the words that have the same number of occurrences into a list.
